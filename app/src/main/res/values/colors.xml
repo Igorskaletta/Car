@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="HelloTextColor">#0C1C81</color>
+    <color name="HelloColor">#FFC4F5FA</color>
+    <color name="teal_200">#FFC4F5FA</color>
+    <color name="purple_700">#FFC4F5FA</color>
+    <color name="purple_200">#FFC4F5FA</color>
+    <color name="main">#00B8D4</color>
+    <color name="btnColor">#C3CFED</color>
+    <color name="red">#D50000</color>
+
+
+</resources>
