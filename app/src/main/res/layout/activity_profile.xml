@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="@color/main"
     android:orientation="vertical"
-    tools:context=".Profile">
+    tools:context=".ProfileActivity">
 
     <ImageView
         android:id="@+id/person_image"
