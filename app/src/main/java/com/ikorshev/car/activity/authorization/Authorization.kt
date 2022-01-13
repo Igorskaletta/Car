@@ -1,11 +1,12 @@
-package com.ikorshev.car
+package com.ikorshev.car.activity.authorization
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.ikorshev.car.R
 
-class ProfileActivity : AppCompatActivity() {
+class AuthorizationActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_profile)
+        setContentView(R.layout.activity_authorization)
     }
 }
