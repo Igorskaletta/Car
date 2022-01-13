@@ -10,6 +10,8 @@
     <color name="main">#00B8D4</color>
     <color name="btnColor">#C3CFED</color>
     <color name="red">#D50000</color>
+    <color name="backgroundLight">#FFC4F5FA</color>
+    <color name="background">#00B8D4</color>
 
 
 </resources>

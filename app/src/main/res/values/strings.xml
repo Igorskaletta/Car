@@ -20,4 +20,6 @@
     <string name="person_info">Персональная информация</string>
     <string name="notification">Уведомления</string>
     <string name="save">Сохраненные</string>
+    <string name="search">Поиск</string>
+    <string name="top_of_the_bmw">BMW M5 G90 Compitition</string>
 </resources>

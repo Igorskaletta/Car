@@ -1,12 +1,12 @@
-package com.ikorshev.car
+package com.ikorshev.car.activity.welcome
 
-import android.annotation.SuppressLint
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.ikorshev.car.R
 
-class SplashActivity : AppCompatActivity() {
+class WelcomeActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_splash)
+        setContentView(R.layout.activity_welcome)
     }
 }

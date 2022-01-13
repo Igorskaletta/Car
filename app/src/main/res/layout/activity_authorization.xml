@@ -5,16 +5,16 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/main"
-    tools:context=".authorization.AuthorizationActivity">
+    tools:context=".activity.authorization.AuthorizationActivity">
 
     <TextView
         android:id="@+id/auth"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_margin="16dp"
+        android:layout_margin="16sp"
         android:text="@string/label_authorization"
         android:textColor="@color/black"
-        android:textSize="28sp"
+        android:textSize="28dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -23,11 +23,11 @@
         android:id="@+id/Login"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="16dp"
+        android:layout_margin="16sp"
         android:backgroundTint="@color/black"
         android:hint="@string/hint_input_login"
         android:inputType="textPersonName"
-        android:minHeight="48dp"
+        android:minHeight="48sp"
         android:textColor="@color/black"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/auth" />
@@ -36,11 +36,11 @@
         android:id="@+id/Password"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="16dp"
+        android:layout_margin="16sp"
         android:backgroundTint="@color/black"
         android:hint="@string/hint_input_pass"
         android:inputType="textPassword"
-        android:minHeight="48dp"
+        android:minHeight="48sp"
         android:textColor="@color/black"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/Login" />
@@ -49,7 +49,7 @@
         android:id="@+id/btnEnter"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="28dp"
+        android:layout_marginTop="28sp"
         android:backgroundTint="@color/btnColor"
         android:text="@string/text_enter"
         android:textColor="@color/black"
