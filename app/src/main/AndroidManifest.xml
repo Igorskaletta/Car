@@ -11,19 +11,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Car">
         <activity
-            android:name=".activity.dealer.DealerActivity"
-            android:exported="false" />
-        <activity
-            android:name=".activity.reviews.Reviews"
-            android:exported="false" />
-        <activity
-            android:name=".activity.cars.CarsActivity"
-            android:exported="false" />
-        <activity
-            android:name=".activity.welcome.WelcomeActivity"
-            android:exported="false" />
-        <activity
-            android:name=".MainActivity"
+            android:name=".activity.SplashActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -31,6 +19,13 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".activity.DealerActivity" />
+        <activity android:name=".activity.ReviewsActivity" />
+        <activity android:name=".activity.CarsActivity" />
+        <activity android:name=".activity.WelcomeActivity" />
+        <activity android:name=".activity.AuthorizationActivity" />
+        <activity android:name=".activity.ProfileActivity" />
+
     </application>
 
 </manifest>

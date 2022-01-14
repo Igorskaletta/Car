@@ -34,86 +34,24 @@
             app:layout_constraintStart_toEndOf="@+id/user_photo"
             app:layout_constraintTop_toTopOf="parent" />
 
-        <TextView
-            android:id="@+id/reviews_date"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="190dp"
-            android:layout_marginTop="20dp"
-            android:text="12.01.2022"
-            android:textColor="@color/black"
-            android:textSize="20sp"
 
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toEndOf="@+id/user_photo"
-            app:layout_constraintTop_toTopOf="parent" />
-
-        <TextView
-            android:id="@+id/dignity"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textStyle="bold"
-            android:textSize="15sp"
-            android:layout_marginTop="15dp"
-            android:layout_marginStart="10dp"
-            android:textColor="@color/black"
-            android:text="Достоинства:"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/User_name" />
-
-        <TextView
-            android:id="@+id/dignity_text"
-            android:layout_width="300dp"
-            android:layout_height="wrap_content"
-            android:layout_margin="5dp"
-            android:textColor="@color/black"
-            android:ellipsize="end"
-            android:lines="3"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/dignity"
-            tools:text="@tools:sample/lorem/random" />
-
-        <TextView
-            android:id="@+id/limitations"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="5dp"
-            android:layout_marginStart="10dp"
-            android:text="Недостатки:"
-            android:textColor="@color/black"
-            android:textSize="15sp"
-            android:textStyle="bold"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/dignity_text" />
-
-        <TextView
-            android:id="@+id/limitations_text"
-            android:layout_width="300dp"
-            android:layout_height="wrap_content"
-            android:layout_margin="5dp"
-            android:textColor="@color/black"
-            android:ellipsize="end"
-            android:lines="3"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/limitations"
-            tools:text="@tools:sample/lorem/random" />
 
         <TextView
             android:id="@+id/comments"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="5dp"
+            android:layout_marginTop="10dp"
             android:layout_marginStart="10dp"
             android:text="Комментарий:"
             android:textColor="@color/black"
             android:textSize="15sp"
             android:textStyle="bold"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/limitations_text" />
+            app:layout_constraintTop_toBottomOf="@+id/User_name" />
 
         <TextView
             android:id="@+id/comments_text"
-            android:layout_width="300dp"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="5dp"
             android:ellipsize="end"

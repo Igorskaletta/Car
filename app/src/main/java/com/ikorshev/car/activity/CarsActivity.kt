@@ -1,12 +1,12 @@
-package com.ikorshev.car.activity.dealer
+package com.ikorshev.car.activity
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.ikorshev.car.R
 
-class DealerActivity : AppCompatActivity() {
+class CarsActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_dealer)
+        setContentView(R.layout.activity_cars)
     }
 }

@@ -34,7 +34,7 @@
         android:id="@+id/reviews_product_name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Где купить?"
+        android:text="Дилеры"
         android:textColor="@color/black"
         android:textSize="36sp"
         android:textStyle="bold"

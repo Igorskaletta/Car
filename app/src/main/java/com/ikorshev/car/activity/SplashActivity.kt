@@ -1,4 +1,4 @@
-package com.ikorshev.car.activity.splash
+package com.ikorshev.car.activity
 
 import android.annotation.SuppressLint
 import android.content.Intent
@@ -7,7 +7,7 @@ import android.os.Bundle
 import android.os.Handler
 import android.os.Looper
 import com.ikorshev.car.R
-import com.ikorshev.car.activity.authorization.AuthorizationActivity
+
 
 class SplashActivity : AppCompatActivity() {
 
@@ -17,7 +17,7 @@ class SplashActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_splash)
         handler.postDelayed({
-            startActivity(Intent(this, AuthorizationActivity::class.java))
+            startActivity(Intent(this, CarsActivity::class.java))
         }, 2255)
     }
 }

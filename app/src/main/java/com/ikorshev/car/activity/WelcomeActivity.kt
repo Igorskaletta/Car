@@ -1,4 +1,4 @@
-package com.ikorshev.car.activity.welcome
+package com.ikorshev.car.activity
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
